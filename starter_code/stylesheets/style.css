@@ -8,3 +8,48 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 768px) {
+    html {
+        margin: 0;
+    }
+    body {
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        width: 100%;
+        background-color: #540B51;
+        height: 80px;
+    }
+    
+    #nav-cnt-one {
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+
+    #nav-cnt-one > ul {
+        display: none;
+    }
+
+    #nav-cnt-one > img {
+        padding-left: 7%;
+        height: 40%;
+    }
+
+    #nav-cnt-two {
+        width: 20%;
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    #nav-cnt-two > button {
+        background-color: #540B51;
+        border: none;
+
+    }
+  }
