@@ -12,19 +12,21 @@ footer links grey: #454245
 @media (max-width: 768px) {
     html {
         margin: 0;
+        width: 100vw;
+        color: white;
+        font-family: sans-serif;
     }
     body {
         margin: 0;
     }
     nav {
         display: flex;
-        width: 100%;
         background-color: #540B51;
         height: 80px;
+        justify-content: space-between;
     }
     
     #nav-cnt-one {
-        width: 80%;
         display: flex;
         align-items: center;
     }
@@ -43,7 +45,6 @@ footer links grey: #454245
         background-color: #540B51;
         display: flex;
         justify-content: space-evenly;
-        box-sizing: border-box;
         align-items: center;
     }
 
@@ -52,4 +53,54 @@ footer links grey: #454245
         border: none;
 
     }
+
+    header {
+        background-color: #540B51;
+    }
+
+    #header-title {
+        margin: 0;
+        font-weight: 500;
+    }
+
+    #header-cnt-one {
+        text-align: center;
+    }
+
+    #header-cnt-one > p {
+        color: white;
+        padding: 0 20px;
+        font-size: .85rem;
+    }
+
+    #yellow-text {
+        color: #ECB12F;
+    }
+
+    #header-btn-ctn {
+        background-color: red;
+        padding: 10px;
+    }
+
+    #header-btn-ctn > button {
+        width: 100%;
+        padding: 20px 0;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    #header-btn-ctn > button:nth-of-type(1) {
+        background-color: white;
+        margin-bottom: 10px;
+    }
+
+    #header-btn-ctn > button:nth-of-type(2) {
+        background-color: #4285F4
+    }
+
+    /* #google-logo {
+        height: 5px;
+    } */
+
   }
