@@ -36,7 +36,7 @@ footer links grey: #454245
     }
 
     #nav-cnt-one > img {
-        padding-left: 7%;
+        padding-left: 20%;
         height: 40%;
     }
 
@@ -46,12 +46,12 @@ footer links grey: #454245
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        padding-right: 15px;
     }
 
     #nav-cnt-two > button {
         background-color: #540B51;
         border: none;
-
     }
 
     header {
@@ -61,6 +61,8 @@ footer links grey: #454245
     #header-title {
         margin: 0;
         font-weight: 500;
+        padding: 0 5%;
+        font-size: 45px;
     }
 
     #header-cnt-one {
@@ -79,7 +81,7 @@ footer links grey: #454245
 
     #header-btn-ctn {
         background-color: red;
-        padding: 10px;
+        padding: 20px;
     }
 
     #header-btn-ctn > button {
@@ -90,7 +92,7 @@ footer links grey: #454245
 
     #header-btn-ctn > button:nth-of-type(1) {
         background-color: white;
-        margin-bottom: 12px;
+        margin-bottom: 15px;
         color: #540B51;
         font-size: .9rem;
         padding: 20px 0;
@@ -107,12 +109,12 @@ footer links grey: #454245
     }
 
     #google-logo {
-        width: 5%;
+        width: 7%;
         margin-left: 5%;
         z-index: 1;
     }
 
-    #sign-up-txt {
+    #sign-up-ggl-txt {
         width: 100%;
         margin-right: 10%;
     }
@@ -123,7 +125,12 @@ footer links grey: #454245
         height: 45px;
         position: relative;
         border-radius: 3px;
-        margin-left: -8%;
+        margin-left: -9%;
+    }
+
+    #slack-app-pic {
+        width: 180%;
+        margin-left: -30px;
     }
 
   }
