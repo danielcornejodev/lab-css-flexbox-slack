@@ -127,6 +127,7 @@ footer links grey: #454245
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 2%;
     }
 
     #slack-app-pic-cnt {
